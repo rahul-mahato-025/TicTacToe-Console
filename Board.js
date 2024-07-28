@@ -8,7 +8,7 @@ class Board {
     for (let row = 0; row < this.size; row++) {
       this.#arr[row] = [];
       for (let col = 0; col < this.size; col++) {
-        this.#arr[row][col] = " ";
+        this.#arr[row][col] = ".";
       }
     }
   }
